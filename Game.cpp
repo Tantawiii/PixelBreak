@@ -77,7 +77,7 @@ void Game::Init()
         ResourceManager::GetTexture("particle"),
         500
     );
-    //InitMusic(); // Initialize music buffers
+    //InitMusic(); // Initialize music buffers, Ignored for now
 }
 
 void Game::Update(float dt)
